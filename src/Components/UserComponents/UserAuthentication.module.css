@@ -1,0 +1,29 @@
+.userAuth {
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    height: 100vh;
+    margin: 73px;
+    box-shadow:
+        "0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%)";
+    background-color: #fff;
+}
+
+.pattern {
+    background-image: url('../../assets/logincomponentbg.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 100%;
+    flex: 0.5;
+}
+
+.formContainer {
+    flex: 0.5;
+    height: 100%;
+}
+
+:global(.ants-tabs-content) {
+    flex: 1;
+}

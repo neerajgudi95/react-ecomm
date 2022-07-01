@@ -1,0 +1,39 @@
+.banner {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    flex: 0.5;
+    padding: 20px;
+}
+
+.left h1 {
+    font-size: 20px;
+}
+
+.left h1 span {
+    letter-spacing: 2px;
+    font-size: 48px;
+    font-weight: 800;
+    color: orangered;
+}
+
+.left p {
+    text-align: justify;
+    width: 60ch;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.left p span {
+    display: inline-block;
+    margin-top: 50px;
+    color: blue;
+}
+
+.right {
+    flex: 0.5;
+}

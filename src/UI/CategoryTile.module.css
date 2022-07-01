@@ -1,0 +1,8 @@
+.catTile img {
+    width: 100px;
+    margin: 10px auto
+}
+
+.catTile h6 {
+    font-size: 14rem !important;
+}

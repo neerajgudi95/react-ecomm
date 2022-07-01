@@ -1,0 +1,82 @@
+.accountContainer {
+    /* max-width: 1320px;
+    margin: 20px auto 0; */
+    padding: 10px;
+    height: 90vh;
+    /* box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);     */
+    display: flex;
+}
+
+.accountContainer__left {
+    width: 300px;
+    /* height: 100%; */
+    overflow: hidden;
+}
+
+.accountSidebar {
+    height: 100%;
+    /* border-radius: 10px; */
+}
+
+.accountOptions {
+    height: 100%;
+    border: 1px solid #ddd;
+    border-top-color: transparent;
+    /* border-bottom-color: transparent; */
+}
+
+.accountInfo {
+    background-image: url('https://target.scene7.com/is/image/Target/settings-bg-tile-light?wid=1200&qlt=60');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    /* border-radius: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.accountInfo h2 {
+    /* color: white; */
+    font-weight: 700;
+    margin: 0;
+}
+
+.accountInfo p {
+    margin: 0;
+    background-color: #36AE7C;
+    padding: 2px 20px;
+    color: white;
+    position: relative;
+    /* border-radius: 10px; */
+}
+
+.accountContainer__right {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.accountInfo p::before,
+.accountInfo p::after {
+    position: absolute;
+    width: 20px;
+    height: 26px;
+    border-style: solid;
+    border-image: initial;
+    top: 0;
+    content: '';
+    border-width: 13px;
+}
+
+.accountInfo p::before {
+    left: -1em;
+    border-color: #36AE7C #36AE7C #36AE7C transparent;
+}
+
+.accountInfo p::after {
+    right: -1em;
+    border-color: #36AE7C transparent #36AE7C #36AE7C;
+}

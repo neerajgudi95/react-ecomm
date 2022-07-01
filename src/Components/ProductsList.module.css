@@ -1,0 +1,20 @@
+.prodList {
+    max-width: 1320px;
+    margin: 50px auto;
+}
+
+.prodList__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.prodItem {
+    width: 250px;
+    height: 300px;
+}

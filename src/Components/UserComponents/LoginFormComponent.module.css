@@ -1,0 +1,40 @@
+.loginForm {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.loginWithGoogle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWithGoogle button {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: 1px solid #ddd;
+}
+
+.loginWithGoogle button:hover {
+    box-shadow: 0px 0px 23px -3px rgba(0, 30, 255, 0.3);
+}
+
+.googleIcon {
+    padding: 10px 15px;
+    background-color: rgb(225, 8, 8);
+    color: rgb(248, 242, 242);
+
+}
+
+.googleLogin {
+    padding: 10px;
+    color: blue;
+    background-color: white;
+    height: 100%;
+}
